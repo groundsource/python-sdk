@@ -6,12 +6,12 @@ Defines the abstract class for all BXML verbs
 @copyright Bandwidth INC
 """
 
-from abc import ABC, abstractmethod
+import abc
 
 
-class AbstractBxmlVerb(ABC):
+class AbstractBxmlVerb():
 
-    @abstractmethod
+    
     def to_bxml(self):
         """
         Converts the class into its xml representation
